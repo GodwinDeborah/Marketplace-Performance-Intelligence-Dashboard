@@ -305,10 +305,58 @@ Based on the analysis, the following recommendations are proposed:
 
 # Repository Structure
 
-```
+```text
 Marketplace-Performance-Intelligence-Dashboard/
-
----
+│
+├── Dashboard/
+│   └── Marketplace-Performance-Intelligence-Dashboard.pbix
+│
+├── data/
+│   ├── raw/
+│   │   └── marketplace_data.csv
+│   │
+│   └── processed/
+│       ├── marketplace_data.csv
+│       ├── stg_marketplace_data.csv
+│       ├── fact_table_orders.csv
+│       ├── dim_category.csv
+│       ├── dim_date.csv
+│       ├── dim_dish.csv
+│       ├── dim_location.csv
+│       └── dim_restaurant.csv
+│
+├── docs/
+│   ├── business-requirements.md
+│   ├── data-dictionary.md
+│   ├── DAX calculations.md
+│   └── business insights.md
+│
+├── images/
+│   ├── schema.jpg
+│   ├── executive.jpg
+│   ├── restaurant.jpg
+│   ├── menu.jpg
+│   ├── geographic.jpg
+│   └── marketplace.jpg
+│
+├── scripts/
+│   ├── 00. database init.sql
+│   ├── 01. load stg table.sql
+│   ├── 02. create prd table.sql
+│   ├── 03. load prd table.sql
+│   ├── 04. data cleaning and validation.sql
+│   ├── 05. schema creation.sql
+│   ├── 06. dim load.sql
+│   ├── 07. fact load.sql
+│   ├── 08. marketplace performance.sql
+│   ├── 09. restaurant performance.sql
+│   ├── 10. menu performance.sql
+│   ├── 11. geographic performance.sql
+│   └── 12. marketplace health.sql
+│
+├── LICENSE
+└── README.md
+```
 
 # Documentation
 
