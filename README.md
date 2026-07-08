@@ -386,7 +386,7 @@ Potential future improvements include:
 
 # Author
 
-**Deborah Godwin Onoriode**
+** Godwin Deborah Onoriode**
 
 Data Analyst | SQL | Power BI | Excel
 
