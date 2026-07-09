@@ -138,23 +138,7 @@ The dashboard consists of five interactive report pages.
 
 ## Executive Overview
 
-**Purpose**
-
 Provides an executive-level summary of marketplace performance.
-
-**KPIs**
-
-- Total Revenue
-- Total Orders
-- Average Order Value
-- Average Rating
-
-**Visuals**
-
-- Revenue Trend
-- Orders Trend
-- Revenue by Category
-- Customer Rating Distribution
 
 ![Executive Overview](Images/Executive.jpg)
 
@@ -163,24 +147,7 @@ Provides an executive-level summary of marketplace performance.
 
 ## Restaurant Performance
 
-**Purpose**
-
-Evaluate restaurant performance and identify top contributors.
-
-**KPIs**
-
-- Restaurant Revenue
-- Restaurant Orders
-- Average Restaurant Rating
-- Active Restaurants
-
-**Visuals**
-
-- Revenue by Restaurant
-- Orders by Restaurant
-- Restaurant Performance Matrix
-- Restaurant Performance Table
-
+Analyze restaurant performance and identify top contributors.
 
 ![Restaurant Performance](Images/Restaurant.jpg)
 
@@ -188,23 +155,7 @@ Evaluate restaurant performance and identify top contributors.
 
 ## Menu Performance
 
-**Purpose**
-
 Analyze menu performance across categories and individual dishes.
-
-**KPIs**
-
-- Total Orders
-- Dish Revenue
-- Average Dish Rating
-- Distinct Dishes
-
-**Visuals**
-
-- Revenue by Category
-- Revenue by Dish
-- Category Performance Matrix
-- Dish Performance Table
 
 ![Menu Performance](Images/Menu.jpg)
 
@@ -212,23 +163,7 @@ Analyze menu performance across categories and individual dishes.
 
 ## Geographic Performance
 
-**Purpose**
-
 Evaluate marketplace performance across geographic regions.
-
-**KPIs**
-
-- Total Orders
-- Geographic Revenue
-- Average Rating
-- Active Cities
-
-**Visuals**
-
-- Revenue by City
-- Orders by City
-- City Performance Matrix
-- Geographic Performance Table
 
 ![Geographic Performance](Images/Geographic.jpg)
 
@@ -236,23 +171,7 @@ Evaluate marketplace performance across geographic regions.
 
 ## Marketplace Health
 
-**Purpose**
-
 Assess overall marketplace health and revenue concentration.
-
-**KPIs**
-
-- Top 10 Revenue Share
-- Marketplace Categories
-- Marketplace Rating
-- Active Restaurants
-
-**Visuals**
-
-- Revenue Concentration
-- Marketplace Rating Distribution
-- Marketplace Category Diversity
-- Revenue by Restaurant
 
 ![Marketplace Health](Images/marketplace.jpg)
 
@@ -357,17 +276,6 @@ Marketplace-Performance-Intelligence-Dashboard/
 ├── LICENSE
 └── README.md
 ```
-
-# Documentation
-
-Additional project documentation is available in the **/docs** directory.
-
-- Business Requirements Document (BRD)
-- Data Dictionary
-- DAX Calculations
-- Business Insights
-
----
 
 # Future Enhancements
 
