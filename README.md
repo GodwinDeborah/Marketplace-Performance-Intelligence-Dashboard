@@ -41,8 +41,7 @@ The objective of this project is to design and develop an interactive Business I
 
 | Technology | Purpose |
 |------------|---------|
-| SQL Server | Data ingestion, ETL, validation and business analysis |
-| Microsoft Excel | Initial data cleaning and preprocessing |
+| SQL Server | Data ingestion, ETL, cleaning, validation and business analysis |
 | Power BI | Interactive dashboard development |
 | DAX | Business calculations and KPI development |
 | CSV | Source dataset |
@@ -58,19 +57,19 @@ The project follows a structured Business Intelligence workflow.
 CSV Dataset
       │
       ▼
-Excel Data Cleaning
-      │
-      ▼
 SQL Server Staging Table
       │
       ▼
 Production Table
       │
       ▼
-Dimension Tables
+Data Cleaning and Validation
       │
       ▼
 Star Schema
+      │
+      ▼
+Exploratory Data Analysis
       │
       ▼
 Power BI Data Model
@@ -104,9 +103,7 @@ The solution follows a **Star Schema** consisting of one fact table and five dim
 
 This dimensional model minimizes redundancy, improves query performance, and provides an optimized structure for analytical reporting in Power BI.
 
-### Star Schema
-
-![Star Schema](Images/Schema.jpg)
+![Schema](Images/Schema.jpg)
 
 ---
 
@@ -128,7 +125,7 @@ The workflow included:
 - Power BI data modeling
 - DAX measure development
 
-Supporting SQL scripts are available in the **scripts/** directory.
+Supporting SQL scripts are available in the **Scripts/** directory.
 
 ---
 
@@ -247,8 +244,8 @@ Marketplace-Performance-Intelligence-Dashboard/
 ├── docs/
 │   ├── business-requirements.md
 │   ├── data-dictionary.md
-│   ├── DAX calculations.md
-│   └── business insights.md
+│   ├── DAX-calculations.md
+│   └── business-insights.md
 │
 ├── images/
 │   ├── schema.jpg
@@ -259,19 +256,19 @@ Marketplace-Performance-Intelligence-Dashboard/
 │   └── marketplace.jpg
 │
 ├── scripts/
-│   ├── 00. database init.sql
-│   ├── 01. load stg table.sql
-│   ├── 02. create prd table.sql
-│   ├── 03. load prd table.sql
-│   ├── 04. data cleaning and validation.sql
-│   ├── 05. schema creation.sql
-│   ├── 06. dim load.sql
-│   ├── 07. fact load.sql
-│   ├── 08. marketplace performance.sql
-│   ├── 09. restaurant performance.sql
-│   ├── 10. menu performance.sql
-│   ├── 11. geographic performance.sql
-│   └── 12. marketplace health.sql
+│   ├── 00. database-init.sql
+│   ├── 01. load-stg-table.sql
+│   ├── 02. create-prd-table.sql
+│   ├── 03. load-prd-table.sql
+│   ├── 04. data-cleaning-and-validation.sql
+│   ├── 05. schema-creation.sql
+│   ├── 06. dim-load.sql
+│   ├── 07. fact-load.sql
+│   ├── 08. marketplace-performance.sql
+│   ├── 09. restaurant-performance.sql
+│   ├── 10. menu-performance.sql
+│   ├── 11. geographic-performance.sql
+│   └── 12. marketplace-health.sql
 │
 ├── LICENSE
 └── README.md
